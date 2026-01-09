@@ -27,7 +27,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="relative min-h-screen px-4 sm:px-6 bg-[#030303] text-white overflow-hidden">
+    <section className="relative min-h-screen px-4 sm:px-6  text-white overflow-hidden">
       {/* BACKGROUND */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:40px_40px]" />
