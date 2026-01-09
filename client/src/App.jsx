@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import contact from "./pages/contact.jsx";
+import contact from "./pages/Contact.jsx";
 import Login from "./components/login/login.jsx";
 
 export default function App() {
