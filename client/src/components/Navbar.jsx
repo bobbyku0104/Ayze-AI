@@ -69,9 +69,11 @@ export default function Navbar() {
 
         {/* CTA */}
         <div className="flex items-center gap-4">
-          <button className="hidden sm:block text-sm font-medium text-gray-300 hover:text-white transition-colors">
-            Log in
-          </button>
+          <Link to="/login">
+            <button className="hidden sm:block text-sm font-medium text-gray-300 hover:text-white transition-colors">
+              Log in
+            </button>
+          </Link>
 
           <button className="relative group overflow-hidden px-6 py-2.5 rounded-full bg-white text-black text-sm font-bold transition-all active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.1)]">
             <span className="relative z-10">Get Started</span>
