@@ -59,7 +59,9 @@ export default function FeaturesSection() {
   ];
 
   return (
-    <section className="relative pb-6 px-4 sm:px-6 lg:px-8">
+    <section
+    id="features"
+    className="relative pb-6 px-4 sm:px-6 lg:px-8">
       {/* Background Effects */}
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-20 left-20 w-72 h-72 bg-purple-600/10 blur-[120px] rounded-full" />
