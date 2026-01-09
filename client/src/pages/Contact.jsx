@@ -3,7 +3,7 @@ import { FaGoogle, FaApple } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 
-export default function contact() {
+export default function Contact() {
   const navigate = useNavigate();
   return (
     <div className="min-h-screen flex items-center justify-center bg-[#f4f7f9] px-4 font-sans">

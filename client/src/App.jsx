@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import contact from "./pages/Contact.jsx";
+import Contact from "./pages/Contact.jsx";
 import Login from "./components/login/login.jsx";
 
 export default function App() {
@@ -8,7 +8,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<contact />} />
+        <Route path="/contact" element={<Contact />} />
        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
