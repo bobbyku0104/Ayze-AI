@@ -24,7 +24,9 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className="relative py-24 px-6 overflow-hidden bg-[#030712] text-white">
+    <section
+    id="testimonials"
+    className="relative py-24 px-6 overflow-hidden bg-[#030712] text-white">
       {/* Dynamic Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-indigo-600/20 blur-[120px] rounded-full animate-pulse" />
