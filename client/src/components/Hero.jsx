@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import statCard from "./statcard.jsx";
+import StatCard from "./statcard.jsx";
 
 export default function Hero() {
   const containerVariants = {
@@ -109,7 +109,7 @@ export default function Hero() {
               whileHover={{ y: -10 }}
               className={`${idx > 1 ? "hidden sm:block" : ""}`}
             >
-              <statCard {...card} />
+              <StatCard {...card} />
             </motion.div>
           ))}
         </div>
