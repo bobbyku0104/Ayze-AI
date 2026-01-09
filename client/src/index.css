@@ -8,4 +8,5 @@
 body {
   background-color: var(--dark-bg);
   @apply bg-[#0B1020] text-white;
+  @apply bg-[#0B1020] text-white;
 }
